@@ -185,7 +185,7 @@ nav {
 }
  
 .about-section{
-    background: white;
+    background-image: linear-gradient(135deg, #0a1aff 0%, #000000 100%);
     border-radius: 12px;
     padding: 3rem;
     margin-bottom: 3rem;
@@ -194,7 +194,7 @@ nav {
  
 .section-title{
     font-size: 2.5rem;
-    color: #2c3e50;
+    color: white;
     text-align: center;
     margin-bottom: 3rem;
     position: relative;  
@@ -204,7 +204,7 @@ nav {
     content: '';
     width: 160px;
     height: 4px;
-    background: linear-gradient(135deg, #e67e22, #f39c12);
+    background: linear-gradient(135deg, #0a1aff 0%, #000000 100%);
     display: block;
     margin: 1rem auto;
     border-radius: 2px;
@@ -225,7 +225,7 @@ nav {
 .image-placeholder{
     width: 280px;
     height: 280px;
-    background: linear-gradient(135deg, #e67e22, #f39c12);
+    background: linear-gradient(135deg, #0a1aff 0%, #000000 100%);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -236,24 +236,24 @@ nav {
 }
  
 .about-text h2 {
-    color: #e67e22;
+    color: white;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
  
 .about-text p {
     font-size: 1.1rem;
-    color: #555;
+    color: white;
     margin-bottom: 1.5rem;
 }
  
 .color-changer{
-    background-color: #ecf0f1;
+    background: linear-gradient(135deg, #0a1aff 0%, #000000 100%);
     padding: 2rem;
     border-radius: 12px;
     margin: 2rem 0;
     text-align: center;
-    border-left: 4px solid #e67e22;
+    border-left: 4px solid white;
 }
  
 .color-buttons{
@@ -331,7 +331,7 @@ nav {
 .card-image{
     width: 100%;
     height: 200px;
-    background-image: linear-gradient(135deg, #9b59b6, #8e44ad);
+    background-image: linear-gradient(135deg, #0a1aff 0%, #000000 100%);
     display: flex;
     align-items: center;
     justify-content: center;
