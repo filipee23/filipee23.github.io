@@ -27,6 +27,7 @@ nav {
     align-items: center;
     padding: 0 2rem;
     z-index: 100;
+    border-radius: 10px;
 }
 
 .logo {
@@ -212,28 +213,18 @@ nav {
  
 .about-grid{
     display: grid;
-    grid-template-columns: 1fr 2fr;
     gap: 3rem;
     align-items: center;
     margin-bottom: 3rem;
+    
 }
  
 .profile-image{
     text-align: center;
 }
  
-.image-placeholder{
-    width: 280px;
-    height: 280px;
-    background: linear-gradient(135deg, #0a1aff 0%, #000000 100%);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 4rem;
-    box-shadow: 0 10px 30px rgba(230, 126, 34, 0.3);
-}
+
+
  
 .about-text h2 {
     color: white;
