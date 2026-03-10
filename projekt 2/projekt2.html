@@ -7,8 +7,9 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Planerign: målet med min nav är att man ska kunna scrolla ner på sidan fast att den stannar där uppe och syns. -->
-
+<!-- Började med navbaren först så att man kan navigera på sidan.
+     Målet är att den ska ligga kvar högst upp när man scrollar (sticky).
+     Hade lite problem först med spacing mellan länkarna men löste det med display flex. -->
 
     <nav>
     <div class="nav-container">
@@ -23,7 +24,9 @@
 </nav>
 
 
-<!--Planering är att ha svart och blått tema. Knapparna ska vara bra gjorda osv. hade mycket problem med att få färgerna att fungera och skrev fel tidigare på några classer.-->
+<!--Planering är att ha svart och blått tema. Knapparna ska vara bra gjorda osv. hade mycket problem med att få färgerna att fungera och skrev fel tidigare på några classer. Hero-sektionen är första delen man ser på sidan.
+     Ville ha en stor titel och en kort beskrivning av Spotify.
+     Testade först flera färger men fastnade för blå/svart tema. -->
 <section class="hero-header">
     <div class="hero-content">
         <h1 class="hero-title">Spotify</h1>
@@ -47,6 +50,9 @@
             <h2 class="section-title">Spotify</h2>
             <div class="about-grid">
                 
+<!-- Den här delen är informationssektionen om Spotify. Skrev flera stycken text så sidan inte känns tom och för att visa layout med textblock. -->
+
+
                 <div class="about-text">
                     <h2>Om spotify</h2>
                     <p>Spotify är en populär musikplattform där människor kan lyssna på miljontals låtar, poddar och spellistor från hela världen. Tjänsten gör det enkelt att upptäcka ny musik, följa artister och skapa egna samlingar. Många använder appen varje dag för att hitta rätt stämning, oavsett om de studerar, tränar eller bara vill koppla av. 🎧</p>
@@ -55,13 +61,11 @@
                 </div>
             </div>
             <div class="color-changer">
-                <h3>Interaktiv färgväxlare</h3>
-                <p>Klicka på knapparna nedan för att ändra temafärgen på sidan!</p>
+                <h3>Spotify tjänster</h3>
+                <p>Premuim</p>
                 <div class="color-buttens">
-                    <button class="color-btn color-blue">Blå</button>
-                    <button class="color-btn color-green">Green</button>
-                    <button class="color-btn color-purple">Lila</button>
-                    <button class="color-btn color-orange">Orange</button>
+                    <button class="color-btn color-blue">Utan reklam</button>
+                    <button class="color-btn color-green">Välj vilken låt som helst, när som helst.</button>
                 </div>
             </div>
         </div>
@@ -71,7 +75,30 @@
             <div class="card-grid">
                 <!-- projekt 1 -->
                  <div class="project-card">
-                    <div class="card-image">🧑‍🦰</div>
+                   
+
+
+
+<!-- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-ZkEaW1wdzBrCgrbp4B96etxs8089pwtnBA&s -->
+
+<!-- UPPHOVSRÄTTSANALYS
+   Innehåll: Bild på en räv.
+   Källa: https://digitalfotoforalla.se/fotografering/naturbilder/5-fina-daggdjur-att-fotografera
+   Licens: jfr § 11b i upphovsrättslagen och artikel 4 i DSM-direktivet.
+   Innebär: Får ej användas utan tillåtelse.
+   Använder jag den? Nej.
+-->
+
+<!-- Den här sektionen visar mina topp artister.
+     Använde card-layout så varje artist får en egen ruta. -->
+
+     <!-- Varje card innehåller:
+     - artist namn
+     - kort beskrivning
+     - några låtar
+     - gilla-knapp -->
+
+
                     <div class="card-content">
                         <h3 class="card-title">Labyrint</h3>
                         <p class="card-description">Labyrint är en svensk hiphopgrupp från Uppsala som blandar hiphop och reggae. Deras låtar handlar ofta om livet i förorten och personliga erfarenheter, och de blev kända med låten “Välkommen hem”. 🎤
@@ -93,7 +120,20 @@
                  <!-- slut av projekt1 -->
                 <!-- projekt 2 -->
                  <div class="project-card">
-                    <div class="card-image">🧑‍🦰</div>
+
+<!-- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsNVxdOmLj9zsuBBCyE62E7CTG0Xq1MrTJDQ&s -->
+
+
+<!-- UPPHOVSRÄTTSANALYS
+   Innehåll: Foto från PxHere
+   Källa: https://pxhere.com/sv/photo/1560791
+   Licens: CC0 (Public Domain)
+   Innebär: Fri att använda, kopiera och ändra – även kommersiellt. Ingen källhänvisning krävs.
+   Använder jag den? Ja
+-->
+
+
+
                     <div class="card-content">
                         <h3 class="card-title">Dani M</h3>
                         <p class="card-description">Dani M är en svensk rappare från Stockholm som blandar hiphop med melodiska inslag. Hans musik handlar ofta om personliga upplevelser, känslor och vardagsliv, och han har blivit känd för låtar som “Rätt väg” och “Allt e möjligt”. 🎶
@@ -115,9 +155,25 @@
                  <!-- slut av projekt2 -->
                 <!-- projekt 3 -->
                  <div class="project-card">
-                    <div class="card-image">🧑‍🦰</div>
                     <div class="card-content">
                         <h3 class="card-title">Mares</h3>
+
+<!-- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFf0gkGEAONub1QI_ZgZYWo8eISYz5cOQQew&s -->
+
+<!--UPPHOVSRÄTTSANALYS
+   Innehåll: Foto från Fotosidan
+   Källa: https://www.fotosidan.se/
+   Licens: Upphovsrätt – ägs av fotografen
+   Innebär: Får inte användas utan tillstånd från fotografen
+   Använder jag den? Nej
+-->
+
+
+
+
+
+
+
                         <p class="card-description">Mares är en svensk popgrupp från Uppsala som blivit känd för sina somriga och melodiska låtar. Deras musik handlar ofta om kärlek, vänskap och ungdomsliv, och de har gjort hits som “Allt du gör och att du finns” och “Sunnanvind”. ☀️🎶
 </p>
                         <div class="card-tags">
@@ -140,13 +196,18 @@
         </div>
     </main>
 
+<!-- Footer längst ner på sidan.
+     Här la jag kontaktinfo och snabblänkar.
+     Mest för att sidan ska kännas mer komplett. -->
+
+
 <footer>
     <div class="footer-container">
         <div class="footer-grid">
     
             <div class="footer-section">
-                <h3>Om Alex </h3>
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, vero! Dignissimos repudiandae, temporibus autem accusantium sunt ratione voluptatum expedita omnis molestias! Ex ab dignissimos, delectus officiis explicabo architecto neque quae.</p>
+                <h3>Om Spotify </h3>
+                <p>Spotify, grundat 2006 i Stockholm, erbjuder musik direkt online. Tjänsten möjliggör att lyssna på låtar och poddar, skapa spellistor och följa artister. Gratisversion med reklam och premium utan avbrott ger flexibilitet. Algoritmer och rekommendationer underlättar upptäckande av ny musik. Plattformen förändrar hur människor konsumerar musik digitalt, ger artister global räckvidd och engagerar fans. 🎧✨</p>
                 <div class="social-links">
                     <a href="#" class="social-link">🖥️</a>
                     <a href="#" class="social-link">🖥️</a>
@@ -157,24 +218,23 @@
             <div class="footer-section">
                 <h3>Snabblänkar</h3>
                 <ul>
-                    <li><a href="#HEjdå"> Tillbaka till helvetet</a></li>
-                    <li><a href="#stickhärifrån">Tillbkaa till skogen</a></li>
-                    <li><a href="#dra åt helvegte">kan du bara hoppa</a></li>
-                    <li><a href="#sacka den">hejdå din pajas</a></li>
+                    <li><a href="#HEjdå"> Om Spotify</a></li>
+                    <li><a href="#stickhärifrån">Toppartister</a></li>
+                    <li><a href="#dra åt helvegte">Snabblänkar</a></li>
+                    <li><a href="#sacka den">Juridisk information</a></li>
                 </ul>       
             </div>
 
             <div class="footer-section">
-                <h3>Kontkta inte mig</h3>
-                <p>idiit@gmail.com</p>
+                <h3>Kontakta mig</h3>
+                <p>filip.nilsson@realgymnasiet.se</p>
                 <p>🤡 +46 112</p>
-                <p>skane sweden förfasen</p>
+                <p>skane sweden</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <P>&copy; 2067 Filip. Alla rättigheter är inte förbehållna.</P>
-            <P> skapad med ilska
-                | HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+            <P>&copy; 2067 Filip. Alla rättigheter är förbehållna.</P>
+            <P> 
             </P>
         </div>
 
@@ -190,7 +250,7 @@ const button = document.querySelector(`#heart-${projectId}`).parentNode
 const heart = document.querySelector (`#heart-${projectId}`)
 
 if (button.classList.contains('liked')) {
-    button.classList.remvove('liked')
+    button.classList.remove('liked')
     heart.textContent = "🤍"
     console.log("unlike")
 } else {
