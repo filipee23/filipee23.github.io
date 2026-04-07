@@ -2,6 +2,8 @@ body {
     font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #000000;
     color: #ffffff;
+    display: grid;
+    gap: 50px;
 }
 
 nav {
@@ -18,4 +20,8 @@ nav {
 .nav-container {
     display: flex;
     align-items: center;
+}
+
+.header-content {
+    background-color: blue;
 }
