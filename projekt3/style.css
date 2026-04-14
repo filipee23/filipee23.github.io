@@ -24,4 +24,8 @@ nav {
 
 .header-content {
     background-color: blue;
+    div {
+        text-align: center;
+    }
+
 }
