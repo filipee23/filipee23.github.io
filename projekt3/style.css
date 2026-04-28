@@ -1,13 +1,13 @@
 body {
     font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #000000;
+    background-image: linear-gradient(135deg, #0a1aff 0%, #000000);
     color: #ffffff;
     display: grid;
     gap: 50px;
 }
-
+/* Min titel.  */
 nav {
-    background-color: #eb0000; /* mörk bakgrund */
+     background-color: #000000; 
     padding: 15px 20px;
 }
  
@@ -24,24 +24,59 @@ nav {
 }
 
 .header-content {
-    background-color: blue;
-    div {
+        background-image: linear-gradient(135deg, #0a1aff 0%, #000000);
         text-align: center;
-    }
-
 }
 
 .content {
-    div {
+        background-image: linear-gradient(135deg, #0a1aff 0%, #000000);
+
         text-align: center;
-    }
 }
 
 .content2 {
-    div {
+        background-image: linear-gradient(135deg, #0a1aff 0%, #000000);
+
         text-align: center;
         margin-bottom: 20px;
+}
 
-    }
+
+/* Min footer. */
+.bilder {
+    background-color: rgba(82, 81, 81, 0.233);
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 
 }
+
+
+/* Detta stycke är för att det ska fungera på telefon men det gör inte helt det men nästan. */
+
+@media (max-width: 500px) {
+    .class-content{
+        margin: 1%;
+        padding: 1rem;
+       
+    }
+}
+@media (max-width: 1850px) {
+    body {
+        background-color: purple;
+    }
+    .header-content {
+        flex-direction: column;
+ 
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+
+
+
+
